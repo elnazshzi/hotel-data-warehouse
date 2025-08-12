@@ -388,3 +388,4 @@ LEFT JOIN dim_currency dc
   ON ISNULL(s.currency_code, '-1') = dc.currency_code
 LEFT JOIN dim_origin do
   ON ISNULL(s.origin, '-1') = do.origin;
+
